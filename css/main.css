@@ -45,3 +45,33 @@ nav li {
   font-size: 0.2em;
   color: #ffe014;
 }
+
+.pano {
+  display: block;
+  width: 100%;
+}
+
+div {
+  position: relative;
+}
+
+figcaption {
+  position: absolute;
+  color: #fff;
+  text-shadow: 0px 0px 20px #000;
+  font-size: 0.8em;
+  font-weight: bold;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+}
+
+figcaption p {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 0.8em;
+  padding: 1em;
+  color: #fff;
+  margin: 0;
+}
