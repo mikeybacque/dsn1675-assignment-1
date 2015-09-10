@@ -21,3 +21,7 @@ h1 {
   display: inline-block;
   font-size: 1em;
 }
+
+header div{
+  margin: 1em;
+}
