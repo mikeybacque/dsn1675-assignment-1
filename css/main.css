@@ -32,15 +32,16 @@ header div{
 
 nav ol{
   background-color: #999;
-  color: #ffe014;
+  color: #777;
   list-style: none;
   padding: 0.5em;
   margin: 0;
 }
 
-li {
+nav li {
   display: inline;
   width: 20%;
   font-weight: normal;
   font-size: 0.2em;
+  color: #ffe014;
 }
