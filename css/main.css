@@ -15,6 +15,7 @@ body {
 .logo {
   display: inline-block;
   width: 15%;
+  padding-top: 0.2em;
 }
 
 h1 {
