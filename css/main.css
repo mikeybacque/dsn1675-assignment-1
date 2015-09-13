@@ -81,7 +81,7 @@ main {
 h2 {
   display: inline-block;
   font-size: 1em;
-  color: #fff;
+  color: #ffe014;
   padding: 0.5em;
 }
 
@@ -93,15 +93,24 @@ h3 {
   text-align: left;
   padding-left: 5%;
   font-size: 0.9em;
-  color: #fff;
+  color: #ffe014;
 }
 
+dl {
+  color: #fff;
+  font-size: 0.8em;
+  padding-left: 5%;
+}
 
+dt {
+  font-weight: bold;
+  display: inline-block;
+}
 
-
-
-
-
+dd {
+  display: inline;
+  margin: 0;
+}
 
 
 
