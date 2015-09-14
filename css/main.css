@@ -32,7 +32,6 @@ header div{
 
 nav ol{
   background-color: #999;
-  color: #777;
   list-style: none;
   padding: 0.2em;
   margin: 0;
@@ -112,11 +111,32 @@ dd {
   margin: 0;
 }
 
+span {
+  display: inline-block;
+  width: 30%;
+}
 
+.learn-more {
+  background-color: #999;
+  display: block;
+  margin: 1em;
+  padding: 0.5em;
+  border-radius: 5px;
+  font-size: 0.8em;
+}
 
+p {
+  font-size: 0.8em;
+  color: #fff;
+  padding: 0em 2em 2em 2em;
+  line-height: 1.5em;
+  margin-top: 0;
+}
 
-
-
+div a {
+  display: inline-block;
+  width: 50%; 
+}
 
 
 
