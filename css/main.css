@@ -78,10 +78,11 @@ main {
 }
 
 h2 {
-  display: inline-block;
+  display: block;
   font-size: 1em;
   color: #ffe014;
   padding: 0.5em;
+  margin-bottom: 0.2em;
 }
 
 .giza {
@@ -128,32 +129,27 @@ span {
 p {
   font-size: 0.8em;
   color: #fff;
-  padding: 0em 2em 2em 2em;
+  padding: 0em 2em 0em 2em;
   line-height: 1.5em;
-  margin-top: 0;
+  margin: 0;
 }
 
 div a {
   display: inline-block;
-  width: 50%; 
-}
-
-
-
-
-
-
-
-
-
-
-
-
-.atla {
-  position: absolute;
+  width: 40%;
+  background-color: #999;
+  margin: 1em;
+  padding: 0.5em;
+  border-radius: 5px;
+  font-size: 0.8em;
 }
 
 .atlantis {
   position: relative;
-  display: block;
+  bottom: 10px;
+}
+
+.atla {
+  position: absolute;
+  left: 0;
 }
