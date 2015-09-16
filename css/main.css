@@ -215,4 +215,35 @@ footer {
   background-color: #999;
   text-align: left;
   font-size: 0.8em;
+  padding: 1em;
+  line-height: 1.5;
+  color: #ffe014;
+}
+
+address {
+  color: #fff;
+}
+
+footer a {
+  display: block;
+  padding: 1em;
+  background-color: #444;
+  border-radius: 5px;
+  margin: 1em 1em 1em 0em;
+  color: #ffe014;
+}
+
+.hours, .directions {
+  display: inline-block;
+  padding: 1em;
+  background-color: #444;
+  border-radius: 5px;
+  margin: 1em 1em 1em 0em;
+  font-size: 1em;
+}
+
+footer p {
+  display: block;
+  font-size: 1em;
+  padding: 0;
 }
