@@ -152,10 +152,15 @@ div a {
   display: inline-block;
   width: 40%;
   background-color: #999;
-  margin: 1em;
+  margin: 0.5em;
   padding: 0.5em;
   border-radius: 5px;
   font-size: 0.8em;
+  vertical-align: middle;
+}
+
+.tix {
+  margin-top: 0.5em;
 }
 
 .atlantis {
@@ -163,8 +168,7 @@ div a {
 }
 
 .atla {
-  left: 0;
-  width: 100%;
+  width: 110%
 }
 
 .now-playing {
@@ -174,7 +178,7 @@ div a {
 
 .mysterious {
   text-align: center;
-  padding: 0;
+  padding: 0 0.5em 0 0.5em;
   margin: 0;
   text-shadow: 0px 0px 20px #000;
 }
@@ -182,6 +186,7 @@ div a {
 figcaption a {
   margin: 0;
   font-weight: normal;
+  text-shadow: none;
 }
 
 .seven-wonders {
@@ -195,6 +200,10 @@ figcaption a {
 .this-week ol {
   list-style-type: none;
   padding: 0;
+}
+
+.this-week ul {
+  padding-left: 1.5em;
 }
 
 ul li {
@@ -232,7 +241,7 @@ footer a {
   padding: 1em;
   background-color: #444;
   border-radius: 5px;
-  margin: 1em 1em 1em 0em;
+  margin: 1em 0em 1em 0em;
   color: #ffe014;
 }
 
@@ -243,6 +252,11 @@ footer a {
   border-radius: 5px;
   margin: 1em 1em 1em 0em;
   font-size: 1em;
+  width: 45%;
+}
+
+.directions {
+  margin-right: 0em;
 }
 
 footer p {
