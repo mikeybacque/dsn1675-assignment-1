@@ -418,3 +418,62 @@ footer p {
     vertical-align: middle;
   }
 }
+
+@media only screen and (min-width: 60em) {
+
+  .masthead {
+    width: 35%;
+    display: inline-block;
+  }
+
+  .logo {
+    display: inline;
+    margin: 0;
+  }
+
+  h1 {
+    display: inline;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 100%;
+  }
+
+  .buy {
+    vertical-align: middle;
+    margin: 0 auto;
+    width: 15%;
+  }
+
+  nav {
+    width: 65%;
+    display: inline-block;
+    float: right;
+  }
+
+  nav ol {
+    height: 62px;
+  }
+
+  nav a {
+    vertical-align: middle;
+    margin-top: 0.5em;
+  }
+
+  .panorama {
+    font-size: 130%;
+  }
+
+  h2 {
+    font-size: 120%;
+  }
+
+  .one {
+    width: 30%;
+  }
+
+  .two {
+    width: 30%;
+    clear: both;
+  }
+
+}
