@@ -496,4 +496,20 @@ footer p {
     margin: 0 auto;
   }
 
+  .this-week li {
+    text-align: center;
+  }
+
+  .this-week h3 {
+    text-align: center;
+    padding: 0;
+  }
+
+  .this-week h2 {
+    text-align: center;
+  }
+
+  .this-week ul {
+    padding: 0;
+  }
 }
