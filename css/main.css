@@ -61,7 +61,7 @@ nav li {
 a {
   text-decoration: none;
   color: #ffe014;
-  padding: 0.5em;
+  padding: 0;
   margin: 0 auto;
 }
 
@@ -275,6 +275,11 @@ footer p {
 
 @media only screen and (min-width: 25em) {
 
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
   .logo {
     float: left;
     margin: 0.5em 0em 0.5em 0em;
@@ -419,11 +424,18 @@ footer p {
   }
 }
 
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 60.75em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
 
   .masthead {
     width: 35%;
     display: inline-block;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
   }
 
   .logo {
@@ -433,7 +445,7 @@ footer p {
 
   h1 {
     display: inline;
-    text-align: center;
+    text-align: left;
     vertical-align: middle;
     font-size: 100%;
   }
@@ -441,7 +453,7 @@ footer p {
   .buy {
     vertical-align: middle;
     margin: 0 auto;
-    width: 15%;
+    width: 13%;
   }
 
   nav {
@@ -451,16 +463,17 @@ footer p {
   }
 
   nav ol {
-    height: 62px;
+    height: 70px;
+    padding-top: 0.75em;
+  }
+
+  nav li {
+    width: auto;
   }
 
   nav a {
     vertical-align: middle;
-    margin-top: 0.5em;
-  }
-
-  .panorama {
-    font-size: 130%;
+    margin: 0.5em 0.75em 0 0.75em;
   }
 
   h2 {
