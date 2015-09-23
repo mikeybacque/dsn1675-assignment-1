@@ -397,5 +397,24 @@ footer p {
 
   .hours, .directions {
     width: 20%;
+    float: right;
+    margin: 0.5em;
+  }
+
+  footer a {
+    width: 17%;
+    display: inline-block;
+    text-align: center;
+    margin: 0.5em;
+  }
+
+  .links {
+    font-size: 120%;
+    display: block;
+    clear: both;
+  }
+
+  .links a {
+    vertical-align: middle;
   }
 }
