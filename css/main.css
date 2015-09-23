@@ -1,3 +1,9 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
 html {
   box-sizing: border-box;
 }
@@ -263,4 +269,20 @@ footer p {
   display: block;
   font-size: 1em;
   padding: 0;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .logo {
+  float: left;
+  margin: 0.5em 0em 0.5em 0em;
+}
+
+  .buy {
+  float: right;
+  width: 13%;
+  display: inline;
+  margin: 0.5em 0 0 0;
+}
+
 }
