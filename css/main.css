@@ -408,10 +408,10 @@ footer p {
   }
 
   footer a {
-    width: 17%;
+    width: 18%;
     display: inline-block;
     text-align: center;
-    margin: 0.5em;
+    margin: 0.3em;
   }
 
   .links {
@@ -422,6 +422,28 @@ footer p {
 
   .links a {
     vertical-align: middle;
+  }
+
+  .tickets p {
+    max-width: 30em;
+    margin: 0 auto;
+  }
+
+  .this-week li {
+    text-align: center;
+  }
+
+  .this-week h3 {
+    text-align: center;
+    padding: 0;
+  }
+
+  .this-week h2 {
+    text-align: center;
+  }
+
+  .this-week ul {
+    padding: 0;
   }
 }
 
@@ -489,27 +511,5 @@ footer p {
   .two {
     width: 33.3%;
     clear: both;
-  }
-
-  .tickets p {
-    max-width: 30em;
-    margin: 0 auto;
-  }
-
-  .this-week li {
-    text-align: center;
-  }
-
-  .this-week h3 {
-    text-align: center;
-    padding: 0;
-  }
-
-  .this-week h2 {
-    text-align: center;
-  }
-
-  .this-week ul {
-    padding: 0;
   }
 }
