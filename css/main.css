@@ -460,6 +460,7 @@ footer p {
     padding-left: 0.5em;
     padding-right: 0.5em;
     float: left;
+    height: 72px;
   }
 
   .logo {
@@ -498,6 +499,7 @@ footer p {
   nav a {
     vertical-align: middle;
     margin: 0.5em 0.7em 0 0.7em;
+    z-index: 100;
   }
 
   h2 {
@@ -511,5 +513,9 @@ footer p {
   .two {
     width: 33.3%;
     clear: both;
+  }
+
+  header {
+    height: 72px;
   }
 }
